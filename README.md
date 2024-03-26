@@ -54,15 +54,6 @@ Again, composition is your best friend. When you load the page, you will be able
 RSC is a powerful tool in React that will help us to improve the performance of our apps. It is not complicated, RSC just needs time to be learned. One day, there will be RSC libraries to make our lives easier to integrate 3rd-party services.
 
 
-## (Bonus 1) Heap to create a circular priority quere
-As a bonus, I have created a Heap where we can show suggestions in a more dynamic way. This project works with 3 levels of priority. We can add as much as we want but always taking into account how many levels to create a carousel.
-As priority 1, we are going to have the feature posts. Priority 2, trending posts and for priority 3, we have the latest posts.
-The idea is to show the featured posts with a different priority, inserted once all the next elements and priority have been shown.
-
-For example, you have 9 suggestions, 2 featured posts, 4 trendy posts, and 3 latest posts. You will show 3 post in the initial load, 2 featured ones and 1 trendy. Next you want to show all the trendy posts, then show the featured ones again. Then, show all the lastest post, and again the featured posts.
-
-I have accomplished this nice algorithm using a heap. Data structures are interesting to have a dynamic UI. It is just to take the time to play with them.
-
 ## (Bonus 1) Heap to create a circular priority queue
 As a bonus, I have created a Heap where we can show suggestions more dynamically. This project works with 3 levels of priority. We can add as much as we want but always take into account how many levels to create a carousel.
 As priority 1, we are going to have the feature posts. Priority 2, trending posts, and for priority 3, we have the latest posts.
